@@ -66,8 +66,8 @@ updateBook = (id) => {
           {
             book.favorite ? <span>❤️</span> : <span>🖤</span>
           }
-          <button onClick={() => {this.removeBook(book.id)}}>Remove🗡</button>
-          <button onClick={() => {this.updateBook(book.id)}}>Fav❤</button>
+          <button class="btn btn-outline-dark" onClick={() => {this.removeBook(book.id)}}>Remove🗡</button>
+          <button class="btn btn-outline-danger" onClick={() => {this.updateBook(book.id)}}>Fav❤</button>
         </div>
       )
     }
