@@ -1,3 +1,22 @@
+REQUIREMENTS:
+ - One stateful component, not counting App.js
+ - One stateless functional component
+ - One GET endpoint in Express
+ - One endpoint that uses req.body
+ OPTIONAL:
+ - Each component above minimum
+ - Use a single component more than once
+ - URL parameter
+ - Query string parameter
+ - External web API, per endpoint used
+ - Full CRUD
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
